@@ -1,5 +1,6 @@
 # AdvOC
-This repository is an implementation of paper: Data Quality Matters: **A Case Study of Obsolete Comment Detection**
+This repository is an implementation of paper: **Data Quality Matters: A Case Study of Obsolete Comment Detection**
+![overview](https://github.com/AdvOC2023/AdvOC/blob/main/pictures/AdvOC_Overview.png)
 
 ## Requirements
 - **openjdk11** for tree data generation
