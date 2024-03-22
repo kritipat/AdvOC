@@ -84,6 +84,7 @@ if __name__ == "__main__":
         print('Terminating evaluation: {}'.format(datetime.now().strftime("%m/%d/%Y %H:%M:%S")))
     else:
         model_path = Path(args.model_path)
+        print('Model Path: ' model_path)
         if model_path.exists():
             print('Path exists: {}'.format(model_path))
             exit(0)
