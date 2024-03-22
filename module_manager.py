@@ -99,7 +99,6 @@ class ModuleManager(nn.Module):
 
     def initialize(self, *args, **kwargs):
         """Initializes model parameters from pre-defined hyperparameters"""
-        print(VOCAB_FILE)
         with open(VOCAB_FILE, 'r') as f:
             obj = json.load(f)
 
